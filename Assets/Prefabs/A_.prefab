@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2790262779449002960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3865773761249439625}
+  - component: {fileID: 7138891124244802526}
+  m_Layer: 0
+  m_Name: A_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3865773761249439625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2790262779449002960}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7138891124244802526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2790262779449002960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  data:
+    dataString: UEsDBBQAAAgIAAA4IezodEB1fQIAADQFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMFy2jAQ/RVG58LYBhvcW+sQ0kMSJrSTiy/CXmMNsuSR5ADJ8O9dyTZ26Qnxdvft26eVvwgTuobMSLVRLH+WOZDvE2LP5NtkCD7BmR6k2LFP6HPeWW5Km0Rdzhs1TCLu2zItKzCKZT/EgdtkD8FGsEKqap0fIJHaaIQLyjVgSEljqwVCXxNyxp9pbEsueAqW9vSJp9ibXPGYgTCgRqmL2TzygjgKwq7Em4XLwAvjZeh3patZvPCi1SJarKfeytE0IuO0qiG3Mw1sQd/Xn7s0gdN2GZYsk5wz3Ukl5lI7KxJa6wYHxYScURzd6fNncwRKYIfSWOZx+WtRaDCdM4peHphCD1te8lO2xlZUH1tlH5Q3tlO0cKJazuf/wlPfhQslq6e+re/ZFqZk2fGNXjKqzcj4MfwwUu78OVF+pHsO7yWIF7lRshE5Bo1qbGmjIXgY/t4mS0rIjgPeSr0Dm3owvPe7v2U7w9UNf044q/buPhctsOPSGe6WAxRezS8U7FZHdxSIWhV/NPymh/GOdYFHprTBUDelsPL2slE2laydZ3aaxiRSCXBwJ7oGQbm5bJHG3N/gXWzU9i7ySO1r6pp3sf6R3JU4eMj3vLvQVp5ul6VLeXoGXb42hjMBg2gbeEGfEilEu2BjT/qyXaMKmo3KDg3L/10t4tMojPN9EBc0BFj50zCG2A+jZUTj5T4oVsTtHhM4J+XbVmhnD96aGMgF7ln/kZlsFK3dsueKnjbss5Ijy5ko5C5TAOK1ZbgJB4VN8Fnm65yhQTswhgl33+QrJVxmR8jTG1HqJl2fjaLpwJKSmn1IY5GUJO6rkhIL33Z5q+CDwck278mu5PoXUEsDBBQAAAgIAAA4IeyGHVUcbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrSSYaKZqWVKkpFlWqJpaqqFoa6pZaqloamZuVmipXmSUZqFUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAA4IezodEB1fQIAADQFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAA4IeyGHVUcbQAAAHgAAAAJACQAAAAAAAAAAAAAAMoCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAggMAAAAA
+    upgradeData: 
+    file_cachedStartup: {fileID: 0}
+    data_cachedStartup: 
+    cacheStartup: 0
+  showNavGraphs: 1
+  showUnwalkableNodes: 1
+  debugMode: 0
+  debugFloor: 0
+  debugRoof: 1
+  manualDebugFloorRoof: 0
+  showSearchTree: 0
+  unwalkableNodeDebugSize: 0.3
+  logPathResults: 1
+  maxNearestNodeDistance: 100
+  scanOnStartup: 1
+  fullGetNearestSearch: 0
+  prioritizeGraphs: 0
+  prioritizeGraphsLimit: 1
+  colorSettings:
+    _SolidColor: {r: 0.11764706, g: 0.4, b: 0.7882353, a: 0.9}
+    _UnwalkableNode: {r: 1, g: 0, b: 0, a: 0.5}
+    _BoundsHandles: {r: 0.29, g: 0.454, b: 0.741, a: 0.9}
+    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: 0.5}
+    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
+    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
+    _AreaColors:
+    - {r: 0, g: 0, b: 0, a: 0}
+  tagNames: []
+  heuristic: 2
+  heuristicScale: 1
+  threadCount: 1
+  maxFrameTime: 1
+  batchGraphUpdates: 0
+  graphUpdateBatchingInterval: 0.2
+  euclideanEmbedding:
+    mode: 0
+    seed: 0
+    pivotPointRoot: {fileID: 0}
+    spreadOutCount: 1
+  showGraphs: 1

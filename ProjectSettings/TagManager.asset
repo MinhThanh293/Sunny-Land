@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Cherry
+  - Logic
+  - Enemy
+  - Enemy Head
+  - Scene Transition
+  - Player Position
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Terrain
+  - Enemy
+  - Platform
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackGround
+    uniqueID: 1578019991
+    locked: 0
+  - name: Middle
+    uniqueID: 3375495373
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Entity
+    uniqueID: 3083955441
+    locked: 0
+  - name: ForeGround
+    uniqueID: 3278515221
+    locked: 0
+  - name: AtFront
+    uniqueID: 932747999
+    locked: 0
+  m_RenderingLayers:
+  - Default
