@@ -52,7 +52,7 @@ public class EnemyControllerScript : MonoBehaviour
 			}
 			else
 			{
-				Debug.Log(isTouchingBack);
+				//Debug.Log(isTouchingBack);
 				if (isTouchingBack)
 				{
 					isTouchingBack = false;
@@ -171,7 +171,7 @@ public class EnemyControllerScript : MonoBehaviour
 		obj.transform.Rotate(0f, 180f, 0f);
 	}
 
-	public void DestroyEnemy()
+	public void DestroyEnemy(AudioSource deadSoundEffect = null)
 	{
 		obj.GetComponent<Animator>().SetBool("Death", true);
 		
@@ -190,6 +190,8 @@ public class EnemyControllerScript : MonoBehaviour
 		destroyed = true;
 		rb.linearVelocity = new Vector2(0f, 0f);
 		rb.gravityScale = 0f;
+
+		deadSoundEffect.Play();
 		Destroy(gameObject.transform.parent.gameObject, 0.5f);
 	}
 

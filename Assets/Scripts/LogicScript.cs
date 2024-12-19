@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -9,6 +10,9 @@ public class LogicScript : MonoBehaviour
     public Text gemText;
     public Text playerScoreText;
 	public Text heartText;
+	public AudioSource levelTheme;
+	public AudioSource itemPickUpEffect;
+	public AudioSource gameOverSoundEffect;
 	[SerializeField] private int cherries = 0;
     [SerializeField] private int gems = 0;
     [SerializeField] private int playerScore = 0;
@@ -46,18 +50,29 @@ public class LogicScript : MonoBehaviour
 
     public void restartLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+        StartCoroutine(EndGameOverScreen());
+		SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
+	}
 
-    public void gameOver()
-    {
-        gameOverScreen.SetActive(true);
-    }
+	IEnumerator EndGameOverScreen()
+	{
+		//gameOverScreen.transform.Find("Game Over Screen Back Ground").GetComponent<Animator>().SetTrigger("End");
+		yield return new WaitForSeconds(1);
+		
+	}
 
-    public void addCherry(int point)
+	public void gameOver()
+	{
+		levelTheme.Stop();
+		gameOverSoundEffect.Play();
+		gameOverScreen.SetActive(true);
+	}
+
+	public void addCherry(int point)
     {
 		cherries += 1;
 		cherryText.text = $"{cherries}";
+		itemPickUpEffect.Play();
         addPoint(point);
 	}
 
@@ -65,12 +80,14 @@ public class LogicScript : MonoBehaviour
 	{
 		gems += 1;
 		gemText.text = $"{gems}";
+		itemPickUpEffect.Play();
 		addPoint(point);
 	}
 
 	public void addPoint(int point)
     {
 		playerScore += point;
+		StaticStateScript.playerScore = playerScore;
         playerScoreText.text = playerScore.ToString();
     }
 

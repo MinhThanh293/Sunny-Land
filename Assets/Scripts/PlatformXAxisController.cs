@@ -9,7 +9,6 @@ public class FlatformXAxisController : PlatformController
 		rb = platform.GetComponent<Rigidbody2D>();
 	}
 
-	// Update is called once per frame
 	void FixedUpdate()
     {
 		if (isGoingRight)

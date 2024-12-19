@@ -10,6 +10,7 @@ TagManager:
   - Enemy Head
   - Scene Transition
   - Player Position
+  - Obstacle
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Terrain
   - Enemy
   - Platform
-  - 
+  - Obstacle
   - 
   - 
   - 

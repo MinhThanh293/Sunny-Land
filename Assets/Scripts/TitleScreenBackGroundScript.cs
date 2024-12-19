@@ -15,7 +15,7 @@ public class TitleScreenBackGroundScript : MonoBehaviour
 
 	private void Start()
 	{
-		background1.transform.position = Vector3.SmoothDamp(background1.transform.position, new Vector3(background1.transform.position.x - length, background1.transform.position.y, background1.transform.position.z), ref velocity, smoothTime);
+		Move();
 	}
 
 	void Update()
@@ -31,7 +31,12 @@ public class TitleScreenBackGroundScript : MonoBehaviour
 			background1 = background2;
 			background2 = tmp;
 		}
-		background1.transform.position = Vector3.SmoothDamp(background1.transform.position, new Vector3(background1.transform.position.x - length, background1.transform.position.y, background1.transform.position.z), ref velocity, smoothTime);
+		Move();
 		//background1.transform.position = Vector3.Lerp(background1.transform.position, new Vector3(background1.transform.position.x - length, background1.transform.position.y, background1.transform.position.z), speed * Time.deltaTime);
+	}
+
+	public void Move()
+	{
+		background1.transform.position = Vector3.SmoothDamp(background1.transform.position, new Vector3(background1.transform.position.x - length, background1.transform.position.y, background1.transform.position.z), ref velocity, smoothTime);
 	}
 }

@@ -27,11 +27,12 @@ public class BackGroundScript : MonoBehaviour
             background1 = background2;
             background2 = tmp;
         }
-    }
+		transform.position = new Vector3(transform.position.x, cam.position.y, transform.position.z);
+	}
 
 	private void FixedUpdate()
 	{
-		transform.position = new Vector3(transform.position.x, cam.position.y, transform.position.z);
+		
 	}
 }
 

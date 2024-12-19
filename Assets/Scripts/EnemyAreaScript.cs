@@ -33,6 +33,8 @@ public class EnemyAreaScript : MonoBehaviour
 			Debug.Log(playerPosition);
 			transform.parent.gameObject.transform.parent.gameObject.GetComponent<TwoStatesEnemyController>().setAwake(true, playerPosition);
             animator.SetBool("Awake", true);
+
+            boxCollider.enabled = false;
         }
 	}
 }

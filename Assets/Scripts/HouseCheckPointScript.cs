@@ -12,6 +12,7 @@ public class HouseCheckPointScript : MonoBehaviour
 			{
 				StaticStateScript.playerScore = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>().getPlayerScore();
 				collision.gameObject.GetComponent<PlayerMovement>().setStop(true);
+				collision.gameObject.SetActive(false);
 				SceneController.instance.NextLevel();
 				check = true;
 			}

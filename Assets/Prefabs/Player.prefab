@@ -313,17 +313,14 @@ MonoBehaviour:
   ceilingCheck: {fileID: 1825748966256624123}
   crouchDisableCollider: {fileID: 5897205245519148334}
   playerCamera: {fileID: 0}
-  excludeLayer:
-    serializedVersion: 2
-    m_Bits: 128
   controller: {fileID: 7151675460714530871}
   animator: {fileID: 6393827478175384886}
-  heartText: {fileID: 0}
-  hearts: 99
+  hearts: 10
   runSpeed: 40
   jumpForce: 20
   crouchSpeed: 0.4
   hurtForce: 55
+  jump: 0
 --- !u!95 &6393827478175384886
 Animator:
   serializedVersion: 7
